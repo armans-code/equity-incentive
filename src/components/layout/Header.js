@@ -44,7 +44,7 @@ function Header() {
                                     </svg>
                                     <div class="h-8 w-1 bg-primary"></div>
                                 </div>
-                                <span class="text-2xl font-bold text-gray-900 dark:text-white">
+                                <span class="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">
                                     The Equity Incentive
                                 </span>
                             </Link>
@@ -115,7 +115,7 @@ function Header() {
                                     class="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                                 >
                                     <span class="relative text-sm font-semibold text-white">
-                                        Contact
+                                        EXAMPLE
                                     </span>
                                 </Link>
                             </div>

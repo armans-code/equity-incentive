@@ -15,9 +15,30 @@ function Team() {
                 </div>
                 <div class="my-8">
                     <div class="md:grid md:grid-cols-3 md:mt-8 flex flex-col items-center">
-                        {TEAM_LIST.map((member) => (
-                            <TeamCard id={member.fullName} member={member} />
-                        ))}
+                        <div className="row-start-1 col-start-2 col-end-3">
+                            <TeamCard
+                                id={TEAM_LIST[0].fullName}
+                                member={TEAM_LIST[0]}
+                            />
+                        </div>
+                        <div className=" row-start-2">
+                            <TeamCard
+                                id={TEAM_LIST[1].fullName}
+                                member={TEAM_LIST[1]}
+                            />
+                        </div>
+                        <div className=" row-start-2">
+                            <TeamCard
+                                id={TEAM_LIST[2].fullName}
+                                member={TEAM_LIST[2]}
+                            />
+                        </div>
+                        <div className=" row-start-2">
+                            <TeamCard
+                                id={TEAM_LIST[3].fullName}
+                                member={TEAM_LIST[3]}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

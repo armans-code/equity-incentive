@@ -4,7 +4,7 @@ import Header from './Header';
 
 function Layout({ children }) {
     return (
-        <div className="flex flex-col h-full justify-start">
+        <div className="flex flex-col justify-start">
             <Header />
             <main>{children}</main>
             <Footer />

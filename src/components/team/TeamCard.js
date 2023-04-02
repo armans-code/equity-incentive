@@ -3,7 +3,7 @@ import React from 'react';
 
 function TeamCard({ member }) {
     return (
-        <div role="listitem" class="relative w-11/12 my-16">
+        <div role="listitem" class="relative mx-auto w-11/12 my-16">
             <div class="rounded overflow-hidden shadow-md bg-white pb-14">
                 <div class="absolute -mt-20 w-full flex justify-center">
                     <div class="h-32 w-32">
