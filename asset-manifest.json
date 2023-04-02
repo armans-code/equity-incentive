@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/equity-incentive/static/css/main.5b33ae89.css",
-    "main.js": "/equity-incentive/static/js/main.24faa2e6.js",
+    "main.js": "/equity-incentive/static/js/main.1bdb674c.js",
     "index.html": "/equity-incentive/index.html",
     "main.5b33ae89.css.map": "/equity-incentive/static/css/main.5b33ae89.css.map",
-    "main.24faa2e6.js.map": "/equity-incentive/static/js/main.24faa2e6.js.map"
+    "main.1bdb674c.js.map": "/equity-incentive/static/js/main.1bdb674c.js.map"
   },
   "entrypoints": [
     "static/css/main.5b33ae89.css",
-    "static/js/main.24faa2e6.js"
+    "static/js/main.1bdb674c.js"
   ]
 }
