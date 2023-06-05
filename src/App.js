@@ -5,46 +5,55 @@ import Education from './pages/Education';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import Team from './pages/Team';
+import Contact from './pages/Contact';
 
 function App() {
-    return (
-        <div>
-            <Routes>
-                <Route
-                    path="/"
+  return (
+    <div>
+      <Routes>
+        <Route
+          path='/'
+          element={
+            <Layout>
+              <Home />
+            </Layout>
+          }
+        />
+        <Route
+          path='/resources'
+          element={
+            <Layout>
+              <Resources />
+            </Layout>
+          }
+        />
+        <Route
+          path='/education'
+          element={
+            <Layout>
+              <Education />
+            </Layout>
+          }
+        />
+        <Route
+          path='/team'
+          element={
+            <Layout>
+              <Team />
+            </Layout>
+          }
+        />
+        {/* <Route
+                    path="/contact"
                     element={
-                        <Layout>
-                            <Home />
-                        </Layout>
+                        // <Layout>
+                        <Contact />
+                        // </Layout>
                     }
-                />
-                <Route
-                    path="/resources"
-                    element={
-                        <Layout>
-                            <Resources />
-                        </Layout>
-                    }
-                />
-                <Route
-                    path="/education"
-                    element={
-                        <Layout>
-                            <Education />
-                        </Layout>
-                    }
-                />
-                <Route
-                    path="/team"
-                    element={
-                        <Layout>
-                            <Team />
-                        </Layout>
-                    }
-                />
-            </Routes>
-        </div>
-    );
+                /> */}
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
