@@ -18,7 +18,11 @@ function Header() {
               class='hidden peer'
             />
             <div class='relative z-20 w-full flex justify-between lg:w-max md:px-0'>
-              <Link to='/' aria-label='logo' class='flex space-x-2 items-center'>
+              <Link
+                to='/'
+                aria-label='logo'
+                class='flex space-x-2 items-center'
+              >
                 <div class='flex'>
                   <img src={handshake} />
                 </div>
@@ -61,17 +65,26 @@ function Header() {
               <div class='text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0'>
                 <ul class='tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0'>
                   <li>
-                    <Link to='/resources' class='block md:px-4 transition hover:text-primary'>
+                    <Link
+                      to='/resources'
+                      class='block md:px-4 transition hover:text-primary'
+                    >
                       Resources
                     </Link>
                   </li>
                   <li>
-                    <Link to='/education' class='block md:px-4 transition hover:text-primary'>
+                    <Link
+                      to='/education'
+                      class='block md:px-4 transition hover:text-primary'
+                    >
                       Education
                     </Link>
                   </li>
                   <li>
-                    <Link to='/team' class='block md:px-4 transition hover:text-primary'>
+                    <Link
+                      to='/team'
+                      class='block md:px-4 transition hover:text-primary'
+                    >
                       Meet the Team
                     </Link>
                   </li>
@@ -80,10 +93,12 @@ function Header() {
 
               <div class='mt-12 lg:mt-0'>
                 <Link
-                  //   to='/contact'
+                  to='/support'
                   class='relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max'
                 >
-                  <span class='relative text-sm font-semibold text-white'>Support</span>
+                  <span class='relative text-sm font-semibold text-white'>
+                    Support
+                  </span>
                 </Link>
               </div>
             </div>

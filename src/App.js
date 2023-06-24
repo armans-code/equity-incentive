@@ -5,7 +5,7 @@ import Education from './pages/Education';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import Team from './pages/Team';
-import Contact from './pages/Contact';
+import Support from './pages/Support';
 
 function App() {
   return (
@@ -43,14 +43,14 @@ function App() {
             </Layout>
           }
         />
-        {/* <Route
-                    path="/contact"
-                    element={
-                        // <Layout>
-                        <Contact />
-                        // </Layout>
-                    }
-                /> */}
+        <Route
+          path='/support'
+          element={
+            <Layout>
+              <Support />
+            </Layout>
+          }
+        />
       </Routes>
     </div>
   );
