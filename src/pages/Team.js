@@ -5,9 +5,10 @@ import himani from '../assets/images/himani.jpeg';
 import jumana from '../assets/images/jumana.jpeg';
 import lindsey from '../assets/images/lindsey.jpeg';
 import arman from '../assets/images/arman.png';
+import brooke from '../assets/images/brooke.png'
 
 function Team() {
-  const images = [himani, arman, jumana, lindsey];
+  const images = [himani, arman, jumana, brooke, lindsey];
   return (
     <div>
       <div class='w-full bg-gray-50 px-10'>

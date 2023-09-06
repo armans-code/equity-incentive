@@ -22,6 +22,13 @@ export const TEAM_LIST = [
     image: "jumana",
   },
   {
+    fullName: "Brooke Carpio",
+    title: "Investigations and Publications Officer",
+    description:
+      "Hi! My name is Brooke and I’m a member of the graduating class of 2024 from Tampa, Florida. I’m a varsity cheerleader at my high school and I love dancing, acting, and anything that involves performing. I’m very crafty and tend to have a knack for designing. I’m extremely passionate about creating an inclusive and most importantly, a comfortable environment for everybody, and I’m super excited to be part of the Equity team! ",
+    image: "brooke",
+  },
+  {
     fullName: "Lindsey Unnerstall",
     title: "Resource Officer",
     description:
