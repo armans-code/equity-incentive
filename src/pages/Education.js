@@ -46,6 +46,21 @@ import image42 from '../assets/canva/42.png';
 import image43 from '../assets/canva/43.png';
 import image44 from '../assets/canva/44.png';
 import image45 from '../assets/canva/45.png';
+import image46 from '../assets/canva/46.png';
+import image47 from '../assets/canva/47.png';
+import image48 from '../assets/canva/48.png';
+import image49 from '../assets/canva/49.png';
+import image50 from '../assets/canva/50.png';
+import image51 from '../assets/canva/51.png';
+import image52 from '../assets/canva/52.png';
+import image53 from '../assets/canva/53.png';
+import image54 from '../assets/canva/54.png';
+import image55 from '../assets/canva/55.png';
+import image56 from '../assets/canva/56.png';
+import image57 from '../assets/canva/57.png';
+import image58 from '../assets/canva/58.png';
+import image59 from '../assets/canva/59.png';
+import image60 from '../assets/canva/60.png';
 
 // AHHHHHHH THIS CODE IS DISGUSTING BUT ........
 function Education() {
@@ -96,7 +111,23 @@ function Education() {
     image43,
     image44,
     image45,
-  ];
+    image46,
+    image47,
+    image48,
+    image49,
+    image50,
+    image51,
+    image52,
+    image53,
+    image54,
+    image55,
+    image56,
+    image57,
+    image58,
+    image59,
+    image60
+  ]; // thank god for vim <333
+
   return (
     <div class='w-full pb-20 bg-gray-50 px-10 flex flex-col items-center'>
       <div class='container flex justify-center mx-auto pt-16'>
