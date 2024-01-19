@@ -61,6 +61,27 @@ import image57 from '../assets/canva/57.png';
 import image58 from '../assets/canva/58.png';
 import image59 from '../assets/canva/59.png';
 import image60 from '../assets/canva/60.png';
+import image61 from '../assets/canva/61.png';
+import image62 from '../assets/canva/62.png';
+import image63 from '../assets/canva/63.png';
+import image64 from '../assets/canva/64.png';
+import image65 from '../assets/canva/65.png';
+import image66 from '../assets/canva/66.png';
+import image67 from '../assets/canva/67.png';
+import image68 from '../assets/canva/68.png';
+import image69 from '../assets/canva/69.png';
+import image70 from '../assets/canva/70.png';
+import image71 from '../assets/canva/71.png';
+import image72 from '../assets/canva/72.png';
+import image73 from '../assets/canva/73.png';
+import image74 from '../assets/canva/74.png';
+import image75 from '../assets/canva/75.png';
+import image76 from '../assets/canva/76.png';
+import image77 from '../assets/canva/77.png';
+import image78 from '../assets/canva/78.png';
+import image79 from '../assets/canva/79.png';
+import image80 from '../assets/canva/80.png';
+
 
 // AHHHHHHH THIS CODE IS DISGUSTING BUT ........
 function Education() {
@@ -125,7 +146,27 @@ function Education() {
     image57,
     image58,
     image59,
-    image60
+    image60,
+    image61,
+    image62,
+    image63,
+    image64,
+    image65,
+    image66,
+    image67,
+    image68,
+    image69,
+    image70,
+    image71,
+    image72,
+    image73,
+    image74,
+    image75,
+    image76,
+    image77,
+    image78,
+    image79,
+    image80
   ]; // thank god for vim <333
 
   return (
